@@ -1,14 +1,14 @@
 package com.bridgelabz;
 
-    public class Node<T extends Comparable<T>> {
+    public class INode<T extends Comparable<T>> {
         /*
         Initializing
          */
         T data;
-        Node<T> nextL;
-        Node<T> nextR;
+        INode<T> nextL;
+        INode<T> nextR;
 
-        public Node(T data) {
+        public INode(T data) {
         /*
         Parameterized Constructor
          */

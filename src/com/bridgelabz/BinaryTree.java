@@ -1,14 +1,14 @@
 package com.bridgelabz;
     public class BinaryTree <T extends Comparable<T>> {
 
-        Node<T> root;
+        INode<T> root;
 
         public void add(T data) {
             /*
              * Adding the new node.
              * when the root is null, then create a new node.
              */
-            Node<T> newNode = new Node<>(data);
+            INode<T> newNode = new INode<>(data);
             if (root == null) {
                 root = newNode;
                 return;
@@ -18,7 +18,7 @@ package com.bridgelabz;
              * the value is less than zero, the current pointer is next to left
              * when the value is less , the current pointer creates the new node next to left
              */
-            Node<T> currentPointer = root;
+            INode<T> currentPointer = root;
             while (true) {
                 if (data.compareTo(currentPointer.data) < 0) {
                     if (currentPointer.nextL == null) {
@@ -39,7 +39,7 @@ package com.bridgelabz;
                 }
             }
         }
-        public void display(Node<T> currentPointer){
+        public void display(INode<T> currentPointer){
 
             if (currentPointer == null)
                 return;
