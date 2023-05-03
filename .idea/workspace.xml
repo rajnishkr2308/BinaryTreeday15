@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10a6fbf7-7789-4f62-bf8f-b13f5f5f5385" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/BinaryTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/BinaryTreeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/INode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/INode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

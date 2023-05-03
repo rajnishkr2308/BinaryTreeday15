@@ -39,13 +39,35 @@ package com.bridgelabz;
                 }
             }
         }
-        public void display(INode<T> currentPointer){
+
+        public void display(INode<T> currentPointer) {
 
             if (currentPointer == null)
                 return;
             display(currentPointer.nextL);
-            System.out.print(currentPointer.data+" ");
+            System.out.print(currentPointer.data + " ");
             display(currentPointer.nextR);
+        }
+
+        public void search(INode<T> currentPointer, T searchData) {
+            /*
+             * Searching the Node Left or right
+             */
+            while (currentPointer != null) {
+                int value = searchData.compareTo(currentPointer.data);
+                switch (value) {
+                    case -1:
+                        currentPointer = currentPointer.nextL;
+                        break;
+                    case 1:
+                        currentPointer = currentPointer.nextR;
+                        break;
+                    default:
+                        System.out.println("Element is FOUND");
+                        return;
+                }
+            }
+            System.out.println("Element is NOT FOUND");
         }
     }
 
